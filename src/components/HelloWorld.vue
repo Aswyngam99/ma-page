@@ -1,12 +1,21 @@
 <template>
     <div>
-        <Navigation/>
+    <Navigation/>
       <v-card tile class="back" height ="200"></v-card>
-   <!-- infos -->
+   <!-- infos --> 
           <v-card tile flat class="mx-6 my-6">
             <v-card class="mx-2 my-2 px-2 py-2">
                 <h2 class="titre">1. Objet</h2>
-                <p>Cette procédure décrit les étapes a suivre pour effectuer une analyse matiere active.</p>
+                <p>Cette méthode sert à déterminer les valeurs chromatiques d'échantillons transparents liquides au moyen de l'appareil Lico 200. Les valeurs chromatiques typiques pouvant être mesurées de cette manière sont les suivantes :</p>
+                 <v-list-item two-line>
+                    <v-list-item-content>
+                        <v-list-item-title><strong>- ISO 9000 :</strong></v-list-item-title>
+                        <v-list-item-subtitle>-	Valeurs selon L*,a*,b* (CIE).</v-list-item-subtitle>
+                        <v-list-item-subtitle>-	Lovibond <sub>R</sub>.</v-list-item-subtitle>
+                        <v-list-item-subtitle>-	Klett.</v-list-item-subtitle>
+                        <v-list-item-subtitle>-	Gardner.</v-list-item-subtitle>
+                        <v-list-item-subtitle>-	Hazen.</v-list-item-subtitle>
+                    </v-list-item-content>
             </v-card>
             <v-card class="mx-2 my-2 px-2 py-2">
                 <h2 class="titre">2. Domaine d'application</h2>
@@ -27,7 +36,7 @@
             </v-card>
             <v-card class="mx-2 my-2 px-2 py-2">
                 <h2 class="titre">4. Définitions et Abréviations</h2>
-                <p>MA : matière active.</p>
+                <p>MA : Non indiquées.</p>
             </v-card>
             <v-card class="mx-2 my-2 px-2 py-2">
                 <h2 class="titre">5. Responsabilités et Autorités</h2>
@@ -37,50 +46,23 @@
             <h2 class="titre">6. Processus</h2>
              <v-list-item two-line>
                 <v-list-item-content>
-                    <v-list-item-title><strong>1- Objectifs et applications</strong></v-list-item-title>
-                    <v-list-item-subtitle>Cette méthode est utilisée pour déterminer le taux de tensioactifs anioniques (à l’exception des savons) dans les matières premières, les produits intermédiaires, les détergents liquides et en poudre ainsi que dans les produits d’entretien (sans bétaïne). Elle peut s’appliquer aux tensioactifs anioniques suivants:</v-list-item-subtitle>
-                    <v-list-item-subtitle>- Alkylbenzol sulfonate C<sub>6</sub> et plus</v-list-item-subtitle>
-                    <v-list-item-subtitle>- Alkyl sulfonates</v-list-item-subtitle>
-                    <v-list-item-subtitle>- Alkyl sulfates C<sub>9</sub> et plus</v-list-item-subtitle>
-                    <v-list-item-subtitle>- Alkyl éthersulfates</v-list-item-subtitle>
-                    <v-list-item-subtitle>- Aminoéthyl sulfonates d´acide gras (= taurides d’acide gras)</v-list-item-subtitle>
-                    <v-list-item-subtitle>- Iséthionates d´acide gras</v-list-item-subtitle>
-                    <v-list-item-subtitle>Le méthylbenzol-, diméthylbenzol- ou 2-phénylpropyl sulfonate n’interfèrent pas si leur concentration se situe en deçà de 15 % de la teneur en tensioactif anionique et ne dépasse pas 5 % en <br> valeur absolue. Cette méthode ne s’applique pas aux éthersulfates d’alcool gras comprenant plus de 50 moles d’oxyde d’éthylène. <br> Le savon, les agents de complexion, les sels inorganiques comme le chlorure de sodium, le sulfate, le borate, le phosphate et le silicate ainsi que le peroxyde d’hydrogène <br> (peroxoborate, percarbonate) n’influencent pas le résultat. Le chlore disponible doit être décomposé avec du peroxyde d’hydrogène avant le titrage. <br> La masse molaire des tensioactifs anioniques à déterminer doit être connue. Si la matière première ou le produit contient plusieurs tensioactifs anioniques différents, la masse molaire <br> doit être calculée à partir des concentrations et du type de matière première.</v-list-item-subtitle>
+                    <v-list-item-title><strong>1- Résumé de la méthode</strong></v-list-item-title>
+                    <v-list-item-subtitle> La lumière émise par une lampe halogène est dispersée au moyen d'un réseau de diffraction. L'absorption de cette lumière monochromatique par l'échantillon est mesurée dans la gamme comprise entre 380 nm et 720 nm en pas de 10 nm. L'angle d'observation est de 2°.</v-list-item-subtitle>
 
-                    <v-list-item-title><strong>2- Définitions et abréviations</strong></v-list-item-title>
-                    <v-list-item-subtitle>Non indiqué.</v-list-item-subtitle>
+                    <v-list-item-title><strong>2- Réactifs</strong></v-list-item-title>
+                    <v-list-item-subtitle>Eau désionisée ou autre solvant approprié pour l'échantillon (si nécessaire).</v-list-item-subtitle>
 
-                    <v-list-item-title><strong>3- Résumé de la méthode</strong></v-list-item-title>
-                    <v-list-item-subtitle>On verse le trichlorométhane, la solution échantillon aqueuse acidifiée, un colorant cationique rouge (dimidium bromide) et un colorant anionique bleu (disulphine bleue) dans un récipient de <br> titrage à deux phases (voir notes). Le tensioactif réagit avec le colorant cationique, produisant la paire d’ions rouges correspondante, qui se déplace dans la couche de trichlorométhane sous <br> agitation de l’ensemble du mélange. <br> Au cours du titrage avec une solution mère de tensioactif cationique, le tensioactif anionique dans la phase de trichlorométhane lié au colorant cationique subit une réaction d’échange et <br> forme une paire d’ions incolore avec le tensioactif cationique. Lorsque le point d’équivalence est atteint, l’excédent de tensioactif cationique produit la paire d’ions correspondante avec le <br> colorant anionique. La paire d’ions est soluble dans le trichlorométhane. La solution de trichlorométhane devient grise avec une nuance bleue.</v-list-item-subtitle>
+                    <v-list-item-title><strong>3- Appareillage</strong></v-list-item-title>
+                    <v-list-item-subtitle>*	Appareil de mesure chromatique Lico 200, Dr. Lange, Duesseldorf.</v-list-item-subtitle>
+                    <v-list-item-subtitle>*	Imprimante LD 200, Dr. Lange, Duesseldorf.</v-list-item-subtitle>
+                    <v-list-item-subtitle>*	Cuvettes rectangulaires, 10 mm, 50 mm (p. ex. Dr. Lange, Duesseldorf).</v-list-item-subtitle>
+                    <v-list-item-subtitle>* Cuvettes rondes, 11 mm, (p. ex. Dr. Lange, Duesseldorf).</v-list-item-subtitle>
 
-                    <v-list-item-title><strong>4- Réactifs</strong></v-list-item-title>
-                    <v-list-item-subtitle>• Sel de dodecyl sulfate, standard primaire seulement, pour l’analyse du tensioactif; par ex. Merck 99,2 %</v-list-item-subtitle>
-                    <v-list-item-subtitle>• Solution standard de hyamine, par ex. 0.005 M</v-list-item-subtitle>
-                    <v-list-item-subtitle>• Acide sulfurique p. a., par ex. 10 %</v-list-item-subtitle>
-                    <v-list-item-subtitle>• Trichlorométhane; par ex. de Merck</v-list-item-subtitle>
-                    <v-list-item-subtitle>• Ethanol, 96 % p. a. ou isopropanol p. a. ou méthanol p. a.</v-list-item-subtitle>
-                    <v-list-item-subtitle>• Dimidium bromide; par ex. de Merck</v-list-item-subtitle>
-                    <v-list-item-subtitle>• Disulphine bleue VN 150; par ex. de Merck</v-list-item-subtitle>
-                    <v-list-item-subtitle><strong>4.1 Préparation des réactifs de titrage</strong></v-list-item-subtitle>
-                    <v-list-item-subtitle><strong>4.1.1 Préparation des réactifs de titrage</strong></v-list-item-subtitle>
-                    <v-list-item-subtitle>• Remplir un ballon de 5000 ml jusqu’à moitié environ avec de l’eau déionisée et le placer dans un agitateur magnétique.</v-list-item-subtitle>
-                    <v-list-item-subtitle>• Ajouter en mélangeant les réactifs suivants:</v-list-item-subtitle>
-                    <v-list-item-subtitle>- 333 ±6 g (180 ±3 ml) de H<sub>2</sub>SO<sub>4</sub> 96% <strong>(doucement pour éviter les projections d’acide! Laisser refroidir jusqu’à température ambiante).</strong></v-list-item-subtitle>
-                    <v-list-item-subtitle>- 500 ±5 ml de méthanol ou d’éthanol.</v-list-item-subtitle>
-                    <v-list-item-subtitle>- 0.40 ±0.01 g de dimidium bromide.</v-list-item-subtitle>
-                    <v-list-item-subtitle>- 0.20 ±0.01 g de disulphine bleue VN 150.</v-list-item-subtitle>
-                    <v-list-item-subtitle>- Eau déionisée jusqu’à 5000 ml.</v-list-item-subtitle>
-                    <v-list-item-subtitle>• Homogénéiser ce mélange pendant au moins 2 heures.</v-list-item-subtitle>
-                    <v-list-item-subtitle>Ce mélange doit être stocké dans l’obscurité et/ou des bouteilles de verre marron. (La lumière du jour réduit la durée de vie du mélange).</v-list-item-subtitle>
-                    <v-list-item-subtitle><strong>4.1.2 Dodecyl sulfate (standard primaire)</strong></v-list-item-subtitle>
-                    <v-list-item-subtitle>Le dodecyl sulfate est utilisé sans séchage préalable. La valeur spécifiée sur la bouteille (par ex. 99,2 % pour le matériel Merck) est utilisée pour le calcul.</v-list-item-subtitle>
-                    <v-list-item-subtitle><strong>4.1.3 Solution de dodecyl sulfate de sodium (exemple: 0.005 M)</strong></v-list-item-subtitle>
-                    <v-list-item-subtitle>Prélever et peser 1,454 g ± 0,005 g de dodecyl sulfate de sodium (99,2 %) et les dissoudre dans env. 200 ml d’eau. Transvaser la solution dans un ballon gradué de 1000 ml et remplir ce dernier jusqu’à la marque avec de l’eau. La date de préparation de la solution doit être inscrite sur le ballon. <strong> La solution ne doit pas être utilisée après deux semaines (décomposition d’origine bactérienne possible).</strong> </v-list-item-subtitle>
-                    <v-list-item-subtitle><strong>4.1.4 Détermination du facteur de titrage de la solution standard de hyamine (exemple: 0,05 M)</strong></v-list-item-subtitle>
-                    <v-list-item-subtitle>	Pour analyser une solution de hyamine de 0,005 M standard, prélever avec une pipette 10,0 ml d’une solution de dodecyl sulfate de 0,005 M (voir 4.1.3) dans un ballon de titrage à deux phases et la titrer jusqu´au point d’équivalence comme décrit en 6.2. Répéter ce titrage trois fois et calculer le résultat moyen. Calculer le facteur de la solution de hyamine selon la formule suivante :</v-list-item-subtitle>
-                    <v-list-item-subtitle>facteur <sub>(solution de hyamine)</sub> = <sup>10</sup>/ <sub>V <sub>Hy</sub> </sub> </v-list-item-subtitle>
-                    <v-list-item-subtitle>	VHy = volume (en ml) de la solution de hyamine utilisée jusqu’à la valeur finale.</v-list-item-subtitle>
-                     <v-list-item-subtitle><strong>Remarque générale : pour d’autres concentrations de hyamine, les quantités de réactifs doivent être ajustées.</strong> </v-list-item-subtitle>
+                    <v-list-item-title><strong>4- Procédé</strong></v-list-item-title>
+                    <v-list-item-subtitle><strong>4.1 Préparation de l'appareil</strong></v-list-item-subtitle>
+                    <v-list-item-subtitle>Au moins 15 minutes avant de procéder au calibrage, enclencher l'un après l'autre l'imprimante et l'appareil de mesure Lico.</v-list-item-subtitle>
+                    <v-list-item-subtitle>Après l'enclenchement du Lico 200, un auto-test est réalisé automatiquement.</v-list-item-subtitle>
+                    <v-list-item-subtitle>Après le test apparaît sur l’écran :</v-list-item-subtitle>
 
                      <v-list-item-title><strong>5- Equipement</strong></v-list-item-title>
                      <v-list-item-subtitle>• Ballon de titrage à deux phases (voir 10).</v-list-item-subtitle>
